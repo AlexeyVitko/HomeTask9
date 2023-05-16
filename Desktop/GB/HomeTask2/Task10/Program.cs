@@ -26,8 +26,3 @@ int SecondDigit(int num)
     int secondDigit = num / 10 % 10;
     return secondDigit;
 }
-int SecondDigit(int num)
-{
-    int secondDigit = num / 10 % 10;
-    return secondDigit;
-}

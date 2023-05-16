@@ -14,11 +14,11 @@ if (number>=0 && number<100) Console.WriteLine("Введенная цифра н
 
 else
 {
-int Result = result(number);
-Console.WriteLine($"Третий разряд числа => {Result}");
+int result = Result(number);
+Console.WriteLine($"Третий разряд числа => {result}");
 }
 
-int result (int num)
+int Result (int num)
 {
 while (num>999)
 {
