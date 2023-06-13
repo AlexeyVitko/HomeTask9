@@ -58,6 +58,15 @@ void Num(int[,] matr)
     }
 }
 
+bool NumberPositive(int num)
+{
+    
+    {
+        if (i> = 0, j> = 0) return true;
+    }
+    return false;
+}
+
 
 
 int[,] array2d = CreateMatrixRndInt(3, 4, -10, 10);

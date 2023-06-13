@@ -48,14 +48,15 @@ void SrArifmColumns(int[,] matr)
         {
             sum = (sum + matr[i, j]);
         }
-        Console.WriteLine($"Среднеарифметическое каждого столбца {j} равно  {sum = sum / matr.GetLength(0)}");
+        Console.WriteLine($"Среднеарифметическое каждого столбца {j} равно  {sum = Math.Round(sum / matr.GetLength(0),3)}");
+        // double SrArifmColumn = Math.Round(sum, 2, MidpointRounding.ToZero);
+
     }
 }
 
 int[,] array2d = CreateMatrixRndInt(3, 4, -10, 10);
 PrintMatrix(array2d);
-
-SrArifmColumns (array2d);
+SrArifmColumns(array2d);
 
 
 
